@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  background: url(../images/bg-desktop.svg) hsl(257deg, 40%, 49%) no-repeat;
+  background-size: cover;
+  margin: 1vw 5vw 1vw 5vw;
+  color: aliceblue;
+}
+
+main {
+  display: flex;
+  font-family: "Open Sans";
+}
+main img {
+  width: 50vw;
+}
+main .txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  padding: 3.5em;
+  line-height: 30px;
+}
+main .txt h1 {
+  font-family: Poppins;
+  font-size: 45px;
+  line-height: 65px;
+  margin: 0;
+}
+main .txt p {
+  font-size: 19px;
+  opacity: 0.8;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+main .txt .btn {
+  width: 200px;
+  padding: 15px 30px 15px 30px;
+  margin-top: 20px;
+  border-radius: 50px;
+  text-align: center;
+  color: hsl(257deg, 40%, 49%);
+  border: 0px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Poppins";
+  box-shadow: 5px 5px 10px #523c8b;
+  transition: all 0.1s ease-in-out;
+}
+main .txt .btn:active {
+  background: hsl(300deg, 69%, 71%);
+  color: aliceblue;
+  box-shadow: 5px 5px 10px #281d44;
+}
+
+footer {
+  font-family: "Open Sans";
+  height: 10vh;
+  justify-content: flex-end;
+  text-align: center;
+}
+footer .logo {
+  display: flex;
+  justify-content: flex-end;
+}
+footer .logo img {
+  width: 50px;
+  margin: 1em;
+  border: 2px solid aliceblue;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+li {
+  list-style: none;
+}
+li ul {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
