@@ -63,6 +63,7 @@ main {
       font-size: 18px;
       font-family: "Poppins";
       box-shadow: 5px 5px 10px darken($cl__primary, 10%);
+      cursor: pointer;
       transition: all 0.1s ease-in-out;
       &:active {
         background: $cl__secondary;
@@ -140,6 +141,9 @@ footer {
       border: 2px solid aliceblue;
       border-radius: 50%;
       padding: 6px;
+      &:hover {
+        border: 2px solid $cl__secondary;
+      }
     }
   }
 }
@@ -148,7 +152,7 @@ footer {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: aliceblue;
 }
 
 li {
